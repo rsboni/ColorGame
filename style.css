@@ -1,0 +1,93 @@
+body {
+    background: #000000;
+    transition: all .6s;
+    --webkit-transition: all 0.6s;
+    --moz-transition: all 0.6s;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px 0;
+}
+
+li {
+    padding: 0 10px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #007bff;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    padding: 20px 13px;
+}
+
+.d-none {
+    display: none;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: #0b427c;
+    transition: all 0.3s;
+}
+
+.active {
+    background-color: #007bff;
+    color: white;
+    transition: all 0.4s;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    color: #007bff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dificultySelector li{
+    padding: 0 10px
+}
+
+.dificultySelector {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    flex-wrap: wrap;
+    margin: 1.66%;
+    background: #007bff;
+    border-radius: 15%;
+    transition: background 1.0s;
+    --webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+}
+
+.gameTitle h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.gameTitle {
+    background-color: #007bff;
+    text-align: center;
+    margin-bottom: 0;
+    transition: all 1.5s;
+    color: #f8f9fa;
+    padding: 4rem 2rem;
+    display: block;
+}
